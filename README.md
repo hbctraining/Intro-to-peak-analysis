@@ -1,8 +1,8 @@
-# Introduction to Peak Analysis Workshop
+# Introduction to Peak Analysis
 
 | Audience | Computational Skills | Prerequisites | Duration |
 :----------|:----------|:----------|:----------|
-| Biologists | Intermediate | None | Introduction to R |
+| Biologists | Intermediate | [Introduction to R](https://hbctraining.github.io/Intro-to-R-flipped/) | 3 days - 2.5 hours each day |
 
 
 ### Learning Objectives 
