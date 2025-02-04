@@ -27,7 +27,7 @@ This repository has teaching materials for a hands-on **Introduction to Peak Ana
 * Peak annotation methods and tools for visualization
 * Differential peak enrichment analysis and functional analysis
 
-> Working knowledge of R is required or completion of the [Introduction to R workshop](https://hbctraining.github.io/Intro-to-R/). 
+> Working knowledge of R is required or completion of the [Introduction to R workshop](https://hbctraining.github.io/Intro-to-R-flipped/). 
 
 **Note for Trainers:** Please note that the schedule linked below assumes that learners will spend between 3-4 hours on reading through, and completing exercises from selected lessons between classes. The online component of the workshop focuses on more exercises and discussion/Q & A.
 
