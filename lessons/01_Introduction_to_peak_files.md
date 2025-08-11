@@ -1,5 +1,5 @@
 ---
-title: "Intro to dataset and peak call file formats"
+title: "Introduction to the dataset and peak call file formats"
 author: "Heather Wick, Upendra Bhattarai, Meeta Mistry, Will Gammerdinger"
 date: "Aug 13th, 2024"
 ---
@@ -216,7 +216,7 @@ For this analysis, we are going to take our peak calls and demonstrate the workf
 
 Each step of this workflow is summmarized below:
 
-- **Peak Calls** - Peak call data will be the input data for the analysis. More information on how peaks can be derived from raw sequence reads can be found [here](https://hbctraining.github.io/Intro-to-ChIPseq-flipped/).
+- **Peak Calls** - Peak call data will be the input data for the analysis. More information on how peaks can be derived from raw sequence reads can be found [here](https://hbctraining.github.io/Investigating-chromatin-biology-ChIPseq/).
 - **Peak QC** - Quality control that can be applied to the data:
   - *QC Metrics Assessment* - Evaluating some important QC metrics to evaluate signal and library complexity. We ensure that values are within [ENCODE guidelines](https://www.encodeproject.org/chip-seq/histone/).
   - *Qualitative Assessment* - Evaluate similarity of samples using both read density data and peak signal enrichment to generate various plots.
