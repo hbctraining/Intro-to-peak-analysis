@@ -414,10 +414,10 @@ Additionally, we can also create BED files for each set of significant regions i
 # Create bed files for each keeping only significant peaks (p < 0.05)
 cKO_enrich <- out %>% 
   filter(FDR < 0.05 & Fold > 0) %>% 
-  select(seqnames, start, end)
+  dplyr::select(seqnames, start, end)
 WT_enrich <- out %>% 
   filter(FDR < 0.05 & Fold < 0) %>% 
-  select(seqnames, start, end)
+  dplyr::select(seqnames, start, end)
   
 # Write to file
 write.table(cKO_enrich, file="results/cKO_enriched.bed", sep="\t", quote=F, row.names=F, col.names=F)
