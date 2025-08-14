@@ -402,6 +402,12 @@ metrics %>%
 <img src="../img/num_peaks_2.png" width="600">
 </p>
 
+---
+
+> Note: When working with ATAC-seq, you will likely process your data through [ataqv](https://github.com/ParkerLab/ataqv) for QC analysis. It provides two additional important QC metrics that we haven't evaluated for this dataset:
+> 1. Fragment Length Distribution
+> 2. Transcription Start Site Enrichment (however, we will look at that later in this workshop)
+
 ### Summary
 
 Overall, our data looks pretty good. We do have a large number of reads in some of our input samples, but all of the other QC metrics look acceptable. We can go ahead and take a look at some additional QC metrics in our next lesson, where we will examine more closely the relationship between samples.
