@@ -153,6 +153,8 @@ olaps_wt <- findOverlapsOfPeaks(WT_H3K27ac_ChIPseq_REP1,
 
 The `olaps_wt` is an object of class "overlappingPeaks". Inside it there are a number of slots which contain different variations of the input data including unique peaks, merged peaks, and overlapping peaks. Next, we will use the results stored in `olaps_wt` to visualize the overlaps.
 
+> Note: You can also use [bedtools](https://bedtools.readthedocs.io/en/latest/) in the command-line to have a finer control of looking for peak overlap. We have materials discussing how to use `bedtools` for looking at peak overlaps [here](https://hbctraining.github.io/Investigating-chromatin-biology-ChIPseq/lessons/07_handling_peaks_bedtools.html#finding-overlapping-peaks-between-replicates). 
+
 ### Venn Diagram
 First we will start with a Venn Diagram. Since there are only three samples, the data is manageable for this type of visualization. **We do not recommend using Venn Diagrams for more than three samples.** The figure becomes very difficult to interpret, especially since the circles/ellipses are not drawn to scale of the peakset sizes.
 
