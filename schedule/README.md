@@ -16,10 +16,10 @@
 | Time |  Topic  | Instructor |
 |:-----------:|:----------:|:--------:|
 | 09:30 - 09:45 | [Workshop Introduction](../lectures/workshop_intro_slides.pdf) | Will |
-| 09:45 - 10:15 | Pre-reading discussion | Meeta |
+| 09:45 - 10:15 | Pre-reading discussion | Upen |
 | 10:15 - 11:00 | [Understanding peaks and peak file formats](../lessons/01_Introduction_to_peak_files.md)  | Will |
 | 11:00- 11:05 | Break|  |
-| 11:05 - 12:00 | [Assessing peak quality metrics](../lessons/02a_peak_quality_metrics_assesment.md) | Meeta |
+| 11:05 - 12:00 | [Assessing peak quality metrics](../lessons/02a_peak_quality_metrics_assesment.md) | Upen |
 
 
 ### Before the next class:
@@ -59,7 +59,7 @@ I. Please **study the contents** and **work through all the code** within the fo
 | 09:30 - 10:00 | Self-learning review | All |
 | 10:00 - 10:45 | [Peak annotation and visualization using ChIPseeker](../lessons/04_peak_annotation_and_visualization.md)| Will |
 | 10:45- 10:55 | Break|  |
-| 10:55 - 12:00 | [Differential enrichment analysis using DiffBind](../lessons/05_diffbind_analysis.md) | Meeta |
+| 10:55 - 12:00 | [Differential enrichment analysis using DiffBind](../lessons/05_diffbind_analysis.md) | Upen |
 
 
 ### Before the next class:
@@ -96,7 +96,7 @@ I. Please **study the contents** and **work through all the code** within the fo
 | Time |  Topic  | Instructor |
 |:-----------:|:----------:|:--------:|
 | 09:30 - 10:30 | Self-learning review | All |
-| 10:30 - 11:15 | [Motif analysis/discovery](../lessons/08_motif_analysis.md) | Meeta |
+| 10:30 - 11:15 | [Motif analysis/discovery](../lessons/08_motif_analysis.md) | Upen |
 | 11:15- 11:25 | Break|  |
 | 11:05 - 11:45 | Discussion Q&A | All |
 | 11:45 - 12:00 | [Wrap-up](../lectures/Workshop_wrapup.pdf) | Will |
