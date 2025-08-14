@@ -147,7 +147,7 @@ dbObj <- readRDS("data/DiffBind/dbObj.rds")
 > #### What are my options for normalization?
 > For each region the ChIP peak count is computed by subtracting out the background using `max(chip_counts - control_counts,1)`. Those values are normalized based on sequencing depth. Normalization is discussed in great detail in Section 7 of the DiffBind vignette. Note that when running the differential analysis, the normalization applied will depend on the method (DESeq2 or edgeR), which is discussed later in the lesson.
 >
-> There is also an option for spike-in normalization. The spike-in strategy is based on the use of a fixed amount of exogenous chromatin from another species that is added to sample in an effort to control for technical variation. More information on spike-in data can be found in [this lesson](https://hbctraining.github.io/Intro-to-ChIPseq-flipped/lessons/01b_experimental_design_considerations.html#spike-in-dna).
+> There is also an option for spike-in normalization. The spike-in strategy is based on the use of a fixed amount of exogenous chromatin from another species that is added to sample in an effort to control for technical variation. More information on spike-in data can be found in [this lesson](https://hbctraining.github.io/Investigating-chromatin-biology-ChIPseq/lessons/01b_experimental_design_considerations.html#spike-in-dna).
 
 ### Data exploration
 Before performing differential binding analysis, it is essential to explore the count matrix, examine various sample statistics, and assess the overall similarity between samples. 
