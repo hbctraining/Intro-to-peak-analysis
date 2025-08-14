@@ -140,7 +140,7 @@ A high-quality ChIP-seq experiment will produce significant clustering of enrich
 
 Using a small genomic window as an example, let's walk through the details of the cross-correlation below. It is important to note that the cross-correlation metric is computed as the **Pearson's linear correlation between coverage for each complementary base** (i.e., on the minus strand and the plus strand), by systematically shifting minus strand by k base pairs at a time. This shift is performed over and over again to obtain the correlations for a given area of the genome.
 
-***Plot 2:** At strand shift of zero, we can observe the underlying reads and fragments that will contribute to this pattern.
+***Plot 2:** At strand shift of zero, we can observe the underlying reads and fragments that will contribute to this pattern.*
 
 <p align="center">
 <img src="../img/cc-fig2.png" width ="500">
