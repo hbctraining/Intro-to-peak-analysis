@@ -48,7 +48,7 @@ Open IGV on your computer. The first thing we will need to do is select the appr
 <img src="../img/IGV_default_with_caption.png"  width="800">
 </p>
 
-You can see a few options for refernce genomes to select from. If you see **mm10**, then you can select it. Otherwise, left-click on "Click for more ..."
+You can see a few options for reference genomes to select from. If you see **mm10**, then you can select it. Otherwise, left-click on "Click for more ..."
 
 <p align="center">
 <img src="../img/IGV_reference_dropdown_with_caption.png"  width="800">
@@ -192,7 +192,7 @@ After loading the cKO IP replicate 3 BigWig track, your IGV session should look 
 
 #### Loading tracks from URL
 
-Alternatively to loading a track from a local file, we can also load tracks from a URL. In this case, we will load [VISTA enhancers](https://enhancer.lbl.gov/vista/) that are availible for the Mouse genome on the [UCSC Genome Browser](https://genome.ucsc.edu/). The VISTA enhancers are curated set of computaitnally predicted and *in vivo* validated enhancer elements in mouse. The file uses bigBed format, which is used with hosted genome browsers liike the UCSC browser which allows the browser only load the relevant sections of genomes at a time and is less computaitonally intensive on a public genome browser. More information on bigBed can be found on the [UCSC page about bigBed](https://genome.ucsc.edu/goldenpath/help/bigBed.html). In order to load  a file from a URL, left-click on <kbd>File</kbd> in the top-left and select <kbd>Load from File...</kbd>. Next, enter this URL into the URL blank:
+Alternatively to loading a track from a local file, we can also load tracks from a URL. In this case, we will load [VISTA enhancers](https://enhancer.lbl.gov/vista/) that are availible for the Mouse genome on the [UCSC Genome Browser](https://genome.ucsc.edu/). The VISTA enhancers are curated set of computationally predicted and *in vivo* validated enhancer elements in mouse. The file uses bigBed format, which is used with hosted genome browsers liike the UCSC browser which allows the browser only load the relevant sections of genomes at a time and is less computationally intensive on a public genome browser. More information on bigBed can be found on the [UCSC page about bigBed](https://genome.ucsc.edu/goldenpath/help/bigBed.html). In order to load  a file from a URL, left-click on <kbd>File</kbd> in the top-left and select <kbd>Load from File...</kbd>. Next, enter this URL into the URL blank:
 
 ```
 https://hgdownload.soe.ucsc.edu/gbdb/mm39/vistaEnhancers/vistaEnhancers.bb
@@ -260,7 +260,7 @@ We can zoom in and out using the <kbd>+</kbd> and <kbd>-</kbd>, respectively, on
 </p>
 
 #### Jump to regions
-Rather than zooming in on a region, you may already have an idea of where you you would like to analyze and you would like to just jump right to that region. Let's go to a region where we might want to inspect a peak that DiffBind has informed us shows is very significant differentially binding. It is located on Chromosome 13 from 64,400,764 to 64,401,164, but let's broaden our region by a kilobase on each side in order to give us some context of the genomic landscape around this differentially expressed peak. In the genomic coordinates box in the top center of the IGV browser, let's enter `chr13:64,399,764-64,402,164` and left-click "Go".
+Rather than zooming in on a region, you may already have an idea of where you you would like to analyze and you would like to just jump right to that region. Let's go to a region where we might want to inspect a peak that DiffBind has informed us has significant differential binding. It is located on Chromosome 13 from 64,400,764 to 64,401,164, but let's broaden our region by a kilobase on each side in order to give us some context of the genomic landscape around this differentially bound peak. In the genomic coordinates box in the top center of the IGV browser, let's enter `chr13:64,399,764-64,402,164` and left-click "Go".
 
 <p align="center">
 <img src="../img/IGV_genomic_cooridnates_with_caption.png"  width="400">
@@ -280,7 +280,7 @@ Alternatively, if there is a gene we are particularly interested in going to, we
 
 ### Modify tracks
 
-At this point, we have identified a region that we'd like to investigate, but we need to clean up the aesthetics of this region in order for us to more clearly evaluate this peak, which DiffBind has indicated shows significant differentially binding.
+At this point, we have identified a region that we'd like to investigate, but we need to clean up the aesthetics of this region in order for us to more clearly evaluate this peak, which DiffBind has indicated shows significant differential binding.
 
 #### Adjust data range
 One of the most important steps when comparing between tracks with quantitative ranges like BigWig files is that you'll need to set the data range to be the same across all tracks. We can look at our IGV browser and look in the top-left of each track (to the right of the track's name) and we will see the track's minimum and maximum data range displayed as [Minimum - Maximum]. 
@@ -321,10 +321,10 @@ While it is nice to be able to adjust a data range, it can be tedious to do it a
 
 In order to use the "Group Autoscale" function in IGV you will need to select all of the tracks you would like to group by either:
 
-- Selecting a range of track while holding <kbd>Shift</kbd>
+- Selecting a range of tracks while holding <kbd>Shift</kbd>
 - Selecting tracks individually while holding <kbd>Command</kbd> on MacOS or <kbd>Ctrl</kbd> on Windows 
 
-Next, right-click in the track names area and select the "Group Autoscale" function. Now, the tracks will be have the same datsa range and will automatically adjust as the data range changes. This process is visualized in the GIF below:
+Next, right-click in the track names area and select the "Group Autoscale" function. Now, the tracks will be have the same data range and will automatically adjust as the data range changes. This process is visualized in the GIF below:
 
 <p align="center">
 <img src="../img/IGV_group_autoscale.gif"  width="800">
