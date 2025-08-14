@@ -319,7 +319,7 @@ Overall, the annotation and visualizations are in line with our expectations for
 
 [Back to the Schedule](../schedule/README.md) 
 
-[Next lesson >>](06_diffbind_analysis.md)
+[Next lesson >>](05_diffbind_analysis.md)
 
  
 
