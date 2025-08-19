@@ -275,7 +275,7 @@ de_summary
 
 ```{r}
      Factor Group Samples Group2 Samples2 DB.edgeR DB.DESeq2
-1 Condition   cKO       3     WT        3     3244       925
+1 Condition   cKO       3     WT        3     2467       926
 ```
 
 Here, **DESeq2 identifies fewer peaks than edgeR**, reflecting it is a more stringent approach. This is not unusual, as we also see a lack of complete agreement with these tools with RNA-seq analyses.
