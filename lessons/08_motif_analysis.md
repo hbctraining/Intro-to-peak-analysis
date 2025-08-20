@@ -67,7 +67,7 @@ Open up an R script file and call it `motif_analysis_prep.R` and add in a header
 library(tidyverse)
 library(GRanges)
 library(ChIPseeker)
-library(TxDb.Mmusculus. UCSC.mm10.knownGene)
+library(TxDb.Mmusculus.UCSC.mm10.knownGene)
 ```
 
 Let's begin by extracting the peaks which overlap across the replicates. Stored in the object are `mergedPeaks`, this corresponds to 	
