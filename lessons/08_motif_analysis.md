@@ -65,7 +65,7 @@ Open up an R script file and call it `motif_analysis_prep.R` and add in a header
 
 # Load libraries
 library(tidyverse)
-library(GRanges)
+library(GenomicRanges)
 library(ChIPseeker)
 library(TxDb.Mmusculus.UCSC.mm10.knownGene)
 ```
